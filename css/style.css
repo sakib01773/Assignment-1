@@ -181,6 +181,11 @@ h3{
 }
 
 
+.card-items img{
+    width: 70%;
+    height: 100px;
+}
+
 
 footer{
     background-color: #0B0D17;
