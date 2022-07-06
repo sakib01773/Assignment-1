@@ -1,6 +1,8 @@
 body{
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
-    font-family: 'Poppins', sans-serif;
+    @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap');
+    font-family: 'Lobster', cursive;
+    font-family: 'Roboto', sans-serif;
+    
     margin: 0;
     
 }
@@ -30,7 +32,7 @@ p{
 }
 
 .header{
-    background-image: url("../image/donation11.jpg");
+    background-image: url("../image/donation7.jpg");
     width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
@@ -167,6 +169,17 @@ h3{
     border-radius: 10px;
 }
 
+.form input{
+    padding: 15px 0;
+    width: 250px;
+    border-radius: 10px;
+    background-color: #F3F3F3;
+    font-size: 20px;
+    margin-bottom: 20px;
+    width: 415px;
+
+}
+
 .email{
     padding: 15px 0;
     width: 250px;
@@ -192,10 +205,13 @@ footer{
     padding: 20px 0;
     color: white;
     text-align: center;
+    
 }
 
 footer h3{
     color: #FF5959;
+    font-family: 'Lobster', cursive;
+    font-weight: 700;
 }
 footer p{
     text-align: center;
